@@ -1,4 +1,4 @@
-# Amazon 2.0 React Public version
+# Amazon 2.0 React
 
 Amazon-like portal retrieves mock products from api with axios. It has the functionality to add/remove items to basket, remove items, simulate checkout, and store/retrieve orders from firestore database.
 
