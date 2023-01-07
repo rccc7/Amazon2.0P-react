@@ -1,12 +1,33 @@
 # Amazon 2.0 React
 
-Amazon-like portal retrieves mock products from api with axios. It has the functionality to add/remove items to basket, remove items, simulate checkout, and store/retrieve orders from firestore database.
+Amazon-like portal retrieves mock products from [Fake Store API](https://fakestoreapi.com/) with [Axios](https://www.npmjs.com/package/axios). It has the functionality to add/remove items to basket, simulate checkout, and save/retrieve orders in a firestore database.
+
+See it in action: https://amazon2-react.vercel.app/
+
+## Screenshots:
+
+<div align="center">
+  <img src="screenshots/Amazon2-react.jpg" alt="screenshot" width="700" style="width:700px;"/>
+</div>
 
 ## Technologies:
 
-ReactJs, NextJs, NextAuth, Tailwindcss, Firebase, Firestore, Redux.
+The following technologies, dependencies an services were used to implement this app:
+- ReactJs.
+- NextJs.
+- NextAuth for sign in functionality with Google.
+- Tailwindcss.
+- Firebase.
+- Firestore.
+- Redux.
+- [React Responsive Carousel](https://www.npmjs.com/package/react-responsive-carousel).
+- [Fake Store API](https://fakestoreapi.com/), a free online REST API from which mock products are retrieved.
+- [Vercel](https://vercel.com/) to host the application.
 
-Disclaimer: This is just a demo for testing purposes only and to demonstrate react & nextjs capabilities.
+
+## Disclaimer 
+
+This is just a demo for testing purposes only and to demonstrate react & Next.js capabilities.
 
 # Installation Steps
 
