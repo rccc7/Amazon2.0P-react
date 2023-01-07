@@ -1,6 +1,6 @@
 # Amazon 2.0 React
 
-Amazon-like portal retrieves mock products from [Fake Store API](https://fakestoreapi.com/) with [Axios](https://www.npmjs.com/package/axios). It has the functionality to add/remove items to basket, simulate checkout, and save/retrieve orders in a firestore database.
+Amazon-like app which retrieves mock products from [Fake Store API](https://fakestoreapi.com/) with [Axios](https://www.npmjs.com/package/axios). It has the functionality to add/remove items to basket, simulate checkout, and save/retrieve orders in a firestore database.
 
 See it in action: https://amazon2-react.vercel.app/
 
