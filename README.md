@@ -12,7 +12,7 @@ See it in action: https://amazon2-react.vercel.app/
 
 ## Technologies:
 
-The following technologies, dependencies an services were used to implement this app:
+The following technologies, dependencies and services were used to implement this app:
 - ReactJs.
 - NextJs.
 - NextAuth for sign in functionality with Google.
