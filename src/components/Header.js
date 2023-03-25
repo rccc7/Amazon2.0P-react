@@ -21,6 +21,9 @@ function Header() {
     return (
         //This will make the header stand always at the top of the page: className='top-0 sticky z-50'
         <header className='top-0 sticky z-50'>
+            <div className='bg-yellow-300 py-2'>
+                <h1 className='font-medium text-sm text-center lg:animate-bounce hover:animate-none'><span className='font-bold'>IMPORTANT:</span> Please, consider this is only a demo app intended to test and demonstrate the creation of ReactJS components to make an UI similar to Amazon. The products listed are just mock articles retrieved from an API. <span className='font-bold'>THIS IS NOT THE OFFICIAL AMAZON PAGE</span></h1>
+            </div>
             {/* Top nav 
             Here, bg-amazon_blue-light was manually defined in the next.config.js file*/}
             <div className='flex items-center bg-amazon_blue-light p-1 flex-grow py-2'>
@@ -36,6 +39,7 @@ function Header() {
                         objectFit="contain"
                         className='cursor-pointer'
                         attribution='https://www.nicepng.com/ourpic/u2q8a9u2o0o0i1t4_amazon-logo-amazon-logo-white-text/'
+                        title="Amazon Logo White Text is high quality PNG picture material, Public domain, via https://www.nicepng.com/"
                     />
                 </div>
                 {/* Search: by default on mobile be hidden, and only shoy in big screens
